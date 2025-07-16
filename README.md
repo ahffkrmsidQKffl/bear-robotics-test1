@@ -8,13 +8,21 @@ UI나 네트워크는 포함하지 않고, 순수한 비즈니스 로직만 포�
 ## 📁 프로젝트 구조
 
 atm-controller/
+
 ├── atm/
+
 │ ├── controller.py # ATMController 클래스 (핵심 로직)
+
 │ └──  models.py # Card, Account 모델 클래스
+
 ├── tests/
+
 │ └── test_controller.py # 단위 테스트
+
 ├── main.py # 흐름을 직접 실행해볼 수 있는 예제
+
 ├── README.md
+
 └── venv/ # 가상환경
 
 ---
