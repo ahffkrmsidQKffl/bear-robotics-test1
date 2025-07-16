@@ -5,6 +5,14 @@ UI나 네트워크는 포함하지 않고, 순수한 비즈니스 로직만 포�
 
 ---
 
+## 🔽 프로젝트 클론
+- Git Bash 등 터미널에서 실행
+```bash
+git clone https://github.com/ahffkrmsidQKffl/bear-robotics-test1
+cd bear-robotics-test1
+```
+---
+
 ## 📁 프로젝트 구조
 
 atm-controller/
@@ -30,15 +38,20 @@ atm-controller/
 ## 🚀 실행 방법
 
 ### 1. 가상환경 설정 (최초 1회)
+```bash
 python -m venv venv
 source venv/Scripts/activate   # Windows(Git Bash)
-
-### 2. 테스트 실행(tests/test_controller.py 에서 단위 테스트를 확인할 수 있습니다.)
+```
+### 2. 테스트 실행
+```bash
 python -m unittest discover tests
-
-### 3. 직접 실행 예제(ATM 흐름을 콘솔에서 따라가면서 테스트할 수 있습니다.)
+```
+- tests/test_controller.py 에서 단위 테스트를 확인할 수 있습니다.
+### 3. 직접 실행 예제
+```bash
 python main.py
-
+```
+- ATM 흐름을 콘솔에서 따라가면서 테스트할 수 있습니다.
 ---
 
 ## 🧪 포함된 테스트
